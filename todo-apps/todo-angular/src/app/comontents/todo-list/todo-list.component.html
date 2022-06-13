@@ -1,0 +1,28 @@
+<div class="extra-container">
+    <div>
+        <button class="tab-button" [ngClass]="{'active': filter === 'all' }" (click)="filter = 'all'">All</button>
+        <button class="tab-button" [ngClass]="{'active': filter === 'todo' }"  *ngIf="atLeastOneToDo()" (click)="filter = 'todo'">To do</button>
+        <button class="tab-button" [ngClass]="{'active': filter === 'done' }"  *ngIf="atLeastOneDone()" (click)="filter = 'done'">Done</button>
+    </div>
+</div>
+
+
+<div class="text-container">
+    <input type="text" class="text-input" placeholder="What's the task?" name="todoText" [(ngModel)]="todoText" (keyup.enter)="add()">
+</div>
+
+<div class="todo-items">
+    <div class="todo-item" *ngFor="let todo of todosFiltered()">
+        <div class="todo-item-left">
+            <input type="checkbox" [(ngModel)]="todo.done" (change)="check(todo)"/>
+            <label class="todo-item-label" [ngClass]="{ 'done' : todo.done}">{{ todo.text }}</label>
+        </div>
+        <button class="remove-item" (click)="delete(todo._id)">&times;</button>
+    </div>    
+</div>
+
+<div class="extra-container">
+    <div>
+    </div>
+    <div>{{ remaining() }} items left</div>
+</div>

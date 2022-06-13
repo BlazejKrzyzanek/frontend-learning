@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Malinowe pola</title>
+</head>
+<body class="font-sans">
+      <!-- NAGŁÓWEK -->
+  <header class="sticky top-0 z-20 bg-white">
+      <nav id="bar" class=" flex justify-center place-items-center bg-auto bg-no-repeat bg-center" style="background-image: url('../assets/header_background.svg')">
+        <a href="#home" class ="">
+          <img class="inline" src="https://img.cppng.com/download/2020-06/37313-5-raspberry-transparent-background.png" alt="Logo" style="width: 180px; height: auto;">
+        </a>
+        <ul class="hidden lg:flex flex-row md:space-y-0 my-4 space-y-4  text-center text-gray-500 text-base uppercase font-semibold list-disc list-outside">
+          <li class="mr-8 list-none"><a href="#home" class="hover:text-purple-800" aria-current="page"> Home </a></li>
+          <li class="mr-8"><a href="#aktualnosci" class="hover:text-purple-800" aria-current="page"> Aktualności </a></li>
+          <li class="mr-8"><a href="#galerie" class="hover:text-purple-800" aria-current="page"> Galerie </a></li>
+          <li class="mr-8"><a href="#przepisy" class="hover:text-purple-800" aria-current="page"> Przepisy </a></li>
+          <li class="mr-8"><a href="#rodzice" class="hover:text-purple-800" aria-current="page"> Dla rodziców </a></li>
+          <li class="mr-8"><a href="#organizatorzy" class="hover:text-purple-800" aria-current="page"> Organizatorzy</a></li>
+          <li class="mr-8"><a href="#polecamy" class="hover:text-purple-800" aria-current="page"> Polecamy</a></li>
+        </ul>
+        <div class="flex lg:hidden">
+          <button class="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-purple-800 focus:outline-none" aria-label="Main menu" aria-expanded="false">
+            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+            <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
+      </nav>
+  </header>
+    <div class="relative">
+      <section class="h-screen flex flex-col items-center justify-center bg-no-repeat bg-cover max-h-128"  style="background-image: url('https://ec.europa.eu/social/BlobServlet?mode=displayPicture&photoId=11618')">
+      </section>
+    <!-- HOME -->
+      <section class="h-screen flex flex-col items-center bg-white text-gray-600">
+          <h2 class="text-2xl text-center uppercase mb-2 px-40 pt-28 pb-16 bg-auto bg-center bg-no-repeat w-full" style="background-image: url(../assets/header_in_text.svg);">Tło projektu</h2>
+          <div class="container max-w-screen-lg text-justify mb-16">
+            <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore explicabo harum dignissimos aliquid qui porro? Nulla saepe, deleniti quia quisquam recusandae, fuga maiores ad quod obcaecati error fugiat perspiciatis porro itaque dolor assumenda blanditiis modi dicta amet unde distinctio veniam ut! Atque ipsum repellat nam quas suscipit modi officia nobis ad quam tempore quasi dolor, libero quisquam laborum numquam facere doloremque ducimus? A error perspiciatis facere, mollitia sequi magni nobis fuga dignissimos quidem optio. Accusantium natus blanditiis hic. Id aliquam dolorum voluptas quia deserunt pariatur beatae sunt esse. Velit ab possimus voluptates illo nemo, aspernatur placeat similique, est voluptas recusandae tempore voluptatibus dignissimos! Dolores ad error nisi architecto expedita eius vel iure, inventore blanditiis qui quas distinctio, accusamus accusantium nulla. Adipisci voluptatem ad sint ex delectus consectetur autem odio! Accusamus alias consequuntur earum nisi, ratione itaque qui eum harum ducimus iusto nulla tempore accusantium non, aspernatur commodi dolore rerum, corrupti sequi quo necessitatibus voluptatem voluptatibus fugit dolores veritatis? Mollitia, dolor sapiente? Quam iste delectus dolores. Cupiditate quod, saepe ratione delectus sed ipsam reiciendis.</p>
+            <p class="mb-4">Vero alias explicabo ullam pariatur ut. Quam delectus excepturi praesentium porro minima. Animi rem consequatur voluptates cumque cupiditate, dolore, aliquid tempora, nulla facilis!</p>
+            <p>Corrupti qui quaerat quidem eligendi enim iusto illo, facilis temporibus necessitatibus tempore animi quo, repellat praesentium harum.</p>
+          </div>
+          <a href="#aktualnosci">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 fill-purple-600" viewBox="0 0 20 20" fill="pink">
+              <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </a>
+        </section>
+      <!-- AKTUALNOŚCI -->
+      <section class="h-screen flex flex-col items-center bg-gray-100 text-gray-600">
+        <h2 class="text-2xl text-center uppercase mb-2 px-40 pt-28 pb-16 bg-auto bg-center bg-no-repeat w-full" style="background-image: url(../assets/header_in_text.svg);">Aktualności</h2>
+        <div class="container max-w-screen-xl text-justify mb-16">
+          <div class="text-gray-600 body-font">
+            <div class="container px-5 mt-4">
+              <ul class="grid grid-cols-2 gap-6 md:grid-cols-4">
+
+                <li class="col-span-1 flex flex-col text-center">
+                  <div class="">
+                    <div class=" inset-0  w-full border-solid border-4 border-purple-600 px-4 py-4">
+                      <img class=" w-full object-cover object-center" src="https://unsplash.it/400/400" />
+                    </div>
+                  </div>
+                </li>
+                <li class="col-span-1 flex flex-col text-left justify-center ">
+                  <div class="relative">
+                    <div class=" inset-0  w-full px-2 ">
+                      <h3 class="mb-4 text-lg text-purple-800 font-semibold">Wkrótce będziemy edukować młodych reptilian</h3>
+                      <p class="text-sm">Dzięki rozszerzeniu współpracy sponsorskiej z Meta, zaczynamy obejmować swoimi wpływami kolejne polskie miasta.</p>
+                      <a href="#aktualnosci">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 fill-purple-600" viewBox="0 0 20 20" fill="pink">
+                          <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="col-span-1 flex flex-col text-center">
+                  <div class="">
+                    <div class=" inset-0  w-full border-solid border-4 border-purple-600 px-4 py-4">
+                      <img class=" w-full object-cover object-center" src="https://unsplash.it/400/400" />
+                    </div>
+                  </div>
+                </li>
+                <li class="col-span-1 flex flex-col text-left justify-center ">
+                  <div class="relative">
+                    <div class=" inset-0  w-full px-2 ">
+                      <h3 class="mb-4 text-lg text-purple-800 font-semibold">Wkrótce będziemy edukować młodych reptilian</h3>
+                      <p class="text-sm">Dzięki rozszerzeniu współpracy sponsorskiej z Meta, zaczynamy obejmować swoimi wpływami kolejne polskie miasta.</p>
+                      <a href="#aktualnosci">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 fill-purple-600" viewBox="0 0 20 20" fill="pink">
+                          <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="col-span-1 flex flex-col text-left justify-center ">
+                  <div class="relative">
+                    <div class=" inset-0  w-full px-2 ">
+                      <h3 class="mb-4 text-lg text-purple-800 font-semibold">Wkrótce będziemy edukować młodych reptilian</h3>
+                      <p class="text-sm">Dzięki rozszerzeniu współpracy sponsorskiej z Meta, zaczynamy obejmować swoimi wpływami kolejne polskie miasta.</p>
+                      <a href="#aktualnosci">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 fill-purple-600" viewBox="0 0 20 20" fill="pink">
+                          <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="col-span-1 flex flex-col text-center">
+                  <div class="">
+                    <div class=" inset-0  w-full border-solid border-4 border-purple-600 px-4 py-4">
+                      <img class=" w-full object-cover object-center" src="https://unsplash.it/400/400" />
+                    </div>
+                  </div>
+                </li>
+                
+
+                <li class="col-span-1 flex flex-col text-left justify-center ">
+                  <div class="relative">
+                    <div class=" inset-0  w-full px-2 ">
+                      <h3 class="mb-4 text-lg text-purple-800 font-semibold">Wkrótce będziemy edukować młodych reptilian</h3>
+                      <p class="text-sm">Dzięki rozszerzeniu współpracy sponsorskiej z Meta, zaczynamy obejmować swoimi wpływami kolejne polskie miasta.</p>
+                      <a href="#aktualnosci">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 fill-purple-600" viewBox="0 0 20 20" fill="pink">
+                          <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="col-span-1 flex flex-col text-center">
+                  <div class="">
+                    <div class=" inset-0  w-full border-solid border-4 border-purple-600 px-4 py-4">
+                      <img class=" w-full object-cover object-center" src="https://unsplash.it/400/400" />
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>  
+        </div>
+        <a href="#profil-warsztatow">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 fill-purple-600" viewBox="0 0 20 20" fill="pink">
+            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+          </svg>
+        </a>
+      </section>
+      <!-- PROFIL WARSZTATÓW -->
+      <section class="h-full flex flex-col items-center  bg-white text-gray-600">
+        <h2 class="text-2xl text-center uppercase mb-2 px-40 pt-28 pb-16 bg-auto bg-center bg-no-repeat w-full" style="background-image: url(../assets/header_in_text.svg);">Profil warsztatów</h2>
+        <div class="container max-w-screen-lg mb-16 flex flex-col">
+          <div class="flex flex-row">
+            <h3 class="flex-none w-64 text-right text-lg text-purple-800 font-semibold">Cel:</h3>
+            <p class="grow ml-4 text-lg">promocja prawidłowych postaw żywieniowych zgodnych z wytycznymi IŻŻ</p>
+          </div>
+          <div class="flex flex-row">
+            <h3 class="flex-none w-64 text-right text-lg text-purple-800 font-semibold">Grupa docelowa:</h3>
+            <p class="grow ml-4 text-lg">dzieci, młodzież, rodzice</p>
+          </div>
+          <div class="flex flex-row">
+            <h3 class="flex-none w-64 text-right text-lg text-purple-800 font-semibold">Czas trwania projektu:</h3>
+            <p class="grow ml-4 text-lg">edycja mazowiecka: maj '14 - luty '16; edycja ogólnopolska marzec-czerwiec '16</p>
+          </div>
+          <div class="flex flex-row">
+            <h3 class="flex-none w-64 text-right text-lg text-purple-800 font-semibold">Zakres:</h3>
+            <p class="grow ml-4 text-lg">400 warsztatów (Po 50 zajęć w miastach: Poznań, Radom, Warszawa, Gdańsk, Elbląg, Zielona Góra, Wrocław, Kraków).</p>
+          </div>
+          <div class="flex flex-row">
+            <h3 class="flex-none w-64 text-right text-lg text-purple-800 font-semibold">Forma:</h3>
+            <p class="grow ml-4 text-lg">dwugodzinne (90 min.) warsztaty kulinarne – informowanie o zaletach bogatego w składniki odżywcze jedzenia podczas wspólnego przygotowywania zdrowych posiłków.</p>
+          </div>
+          <div class="flex flex-row">
+            <h3 class="flex-none w-64 text-right text-lg text-purple-800 font-semibold">Charakter:</h3>
+            <p class="grow ml-4 text-lg">bezpłatne</p>
+          </div>
+          <div class="flex flex-row">
+            <h3 class="flex-none w-64 text-right text-lg text-purple-800 font-semibold">Prowadzący:</h3>
+            <p class="grow ml-4 text-lg">osoby posiadające wiedzę w dziedzinie odżywiania, przygotowywania posiłków, z doświadczeniem pedagogicznym: m.in. dietetycy pracujący w Instytucie Żywności i Żywienia.</p>
+          </div>
+          <div class="flex flex-row">
+            <h3 class="w-64 text-right text-lg text-purple-800 font-semibold">Regulamin:</h3>
+            <a class="grow ml-4 text-lg uppercase text-purple-800 hover:text-purple-900 font-bold" href="https://youtu.be/dQw4w9WgXcQ" >kliknij tutaj</a>
+          </div>
+        </div>
+        <img src="../assets/split.svg" alt="Separator">
+      </section>
+
+    <!-- GALERIA -->
+    <section class="h-full flex flex-col items-center bg-white text-gray-600">
+      <h2 class="text-2xl text-center uppercase mb-2 px-40 pt-28 pb-16 bg-auto bg-center bg-no-repeat w-full" style="background-image: url(../assets/header_in_text.svg);">Galeria</h2>
+      <div class="container  max-w-screen-xl h-full mb-16">
+          <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4">
+              <div class="lg:w-1/3 sm:w-1/2 p-4">
+                <div class="flex relative">
+                  <img alt="gallery" class="absolute aspect-square inset-0 w-full h-full object-cover object-center" src="https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80">
+                  <div class="px-8 py-10 relative z-10 w-full bg-purple-900 opacity-0 hover:opacity-80 text-center items-center justify-center flex flex-col">
+                    <div class="h-64 grid grid-cols-1 content-center">
+                      <h2 class="tracking-widest text-l title-font font-medium uppercase text-white mb-1 text-center">Przedszkole nr 222 - zajęcia dla rodziców z dziećmi / 15.06.16</h2>
+                      <div class="w-full justify-center flex">
+                        <a href="https://youtu.be/dQw4w9WgXcQ">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 fill-purple-600" viewBox="0 0 20 20" fill="pink">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lg:w-1/3 sm:w-1/2 p-4">
+                <div class="flex relative">
+                  <img alt="gallery" class="absolute aspect-square inset-0 w-full h-full object-cover object-center" src="https://images.unsplash.com/photo-1587323655395-b1c77a12c89a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                  <div class="px-8 py-10 relative z-10 w-full bg-purple-900 opacity-0 hover:opacity-80 text-center items-center justify-center flex flex-col">
+                    <div class="h-64 grid grid-cols-1 content-center">
+                      <h2 class="tracking-widest text-l title-font font-medium uppercase text-white mb-1 text-center">Przedszkole nr 222 - zajęcia dla rodziców z dziećmi / 15.06.16</h2>
+                      <div class="w-full justify-center flex">
+                        <a href="https://youtu.be/dQw4w9WgXcQ">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 fill-purple-600" viewBox="0 0 20 20" fill="pink">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lg:w-1/3 sm:w-1/2 p-4">
+                <div class="flex relative">
+                  <img alt="gallery" class="absolute aspect-square inset-0 w-full h-full object-cover object-center" src="https://images.unsplash.com/photo-1586694680938-9682c9e1f736?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                  <div class="px-8 py-10 relative z-10 w-full bg-purple-900 opacity-0 hover:opacity-80 text-center items-center justify-center flex flex-col">
+                    <div class="h-64 grid grid-cols-1 content-center">
+                      <h2 class="tracking-widest text-l title-font font-medium uppercase text-white mb-1 text-center">Przedszkole nr 222 - zajęcia dla rodziców z dziećmi / 15.06.16</h2>
+                      <div class="w-full justify-center flex">
+                        <a href="https://youtu.be/dQw4w9WgXcQ">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 fill-purple-600" viewBox="0 0 20 20" fill="pink">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lg:w-1/3 sm:w-1/2 p-4">
+                <div class="flex relative">
+                  <img alt="gallery" class="absolute aspect-square inset-0 w-full h-full object-cover object-center" src="https://images.unsplash.com/photo-1588075592765-2feb7de1f86d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80">
+                  <div class="px-8 py-10 relative z-10 w-full bg-purple-900 opacity-0 hover:opacity-80 text-center items-center justify-center flex flex-col">
+                    <div class="h-64 grid grid-cols-1 content-center">
+                      <h2 class="tracking-widest text-l title-font font-medium uppercase text-white mb-1 text-center">Przedszkole nr 222 - zajęcia dla rodziców z dziećmi / 15.06.16</h2>
+                      <div class="w-full justify-center flex">
+                        <a href="https://youtu.be/dQw4w9WgXcQ">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 fill-purple-600" viewBox="0 0 20 20" fill="pink">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lg:w-1/3 sm:w-1/2 p-4">
+                <div class="flex relative">
+                  <img alt="gallery" class="absolute aspect-square inset-0 w-full h-full object-cover object-center" src="https://unsplash.it/400/400">
+                  <div class="px-8 py-10 relative z-10 w-full bg-purple-900 opacity-0 hover:opacity-80 text-center items-center justify-center flex flex-col">
+                    <div class="h-64 grid grid-cols-1 content-center">
+                      <h2 class="tracking-widest text-l title-font font-medium uppercase text-white mb-1 text-center">Przedszkole nr 222 - zajęcia dla rodziców z dziećmi / 15.06.16</h2>
+                      <div class="w-full justify-center flex">
+                        <a href="https://youtu.be/dQw4w9WgXcQ">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 fill-purple-600" viewBox="0 0 20 20" fill="pink">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lg:w-1/3 sm:w-1/2 p-4">
+                <div class="flex relative">
+                  <img alt="gallery" class="absolute aspect-square inset-0 w-full h-full object-cover object-center" src="https://images.unsplash.com/photo-1560931697-fdf29e77f6dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80">
+                  <div class="px-8 py-10 relative z-10 w-full bg-purple-900 opacity-0 hover:opacity-80 text-center items-center justify-center flex flex-col">
+                    <div class="h-64 grid grid-cols-1 content-center">
+                      <h2 class="tracking-widest text-l title-font font-medium uppercase text-white mb-1 text-center">Przedszkole nr 222 - zajęcia dla rodziców z dziećmi / 15.06.16</h2>
+                      <div class="w-full justify-center flex">
+                        <a href="https://youtu.be/dQw4w9WgXcQ">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 fill-purple-600" viewBox="0 0 20 20" fill="pink">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- PRZEPISY -->
+    <section class="flex flex-col items-center bg-cover bg-center bg-no-repeat text-white pb-12"  style="background-image: url(https://i.picsum.photos/id/102/4320/3240.jpg?hmac=ico2KysoswVG8E8r550V_afIWN963F6ygTVrqHeHeRc);">
+      <h2 class="text-2xl text-center uppercase mb-2 px-40 pt-28 pb-16 bg-auto bg-center bg-no-repeat w-full" style="background-image: url(../assets/header_in_text.svg);">Przepisy</h2>
+      <div class="container max-w-screen-lg mt-8 mb-16 justify-center flex flex-row drop-shadow-md">
+        <a href="#" class="mr-10 flex flex-col items-center hover:text-purple-800">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 lg:h-24 lg:w-24" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z" clip-rule="evenodd" />
+          </svg>
+          <h2 class="text-xl text-center uppercase font-semibold">Ciastko</h2>
+        </a>
+        <a href="#" class="mr-10 flex flex-col items-center hover:text-purple-800">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 lg:h-24 lg:w-24" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M7 2a1 1 0 00-.707 1.707L7 4.414v3.758a1 1 0 01-.293.707l-4 4C.817 14.769 2.156 18 4.828 18h10.343c2.673 0 4.012-3.231 2.122-5.121l-4-4A1 1 0 0113 8.172V4.414l.707-.707A1 1 0 0013 2H7zm2 6.172V4h2v4.172a3 3 0 00.879 2.12l1.027 1.028a4 4 0 00-2.171.102l-.47.156a4 4 0 01-2.53 0l-.563-.187a1.993 1.993 0 00-.114-.035l1.063-1.063A3 3 0 009 8.172z" clip-rule="evenodd" />
+          </svg>
+          <h2 class="text-xl text-center uppercase font-semibold">Napój</h2>
+        </a>
+        <a href="#" class="mr-10 flex flex-col items-center hover:text-purple-800">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 lg:h-24 lg:w-24" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M2 6a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 100 4v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2a2 2 0 100-4V6z" />
+          </svg>
+          <h2 class="text-xl text-center uppercase font-semibold">Bilet</h2>
+        </a>
+        <a href="#" class="mr-10 flex flex-col items-center hover:text-purple-800">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 lg:h-24 lg:w-24" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M5.5 2a3.5 3.5 0 101.665 6.58L8.585 10l-1.42 1.42a3.5 3.5 0 101.414 1.414l8.128-8.127a1 1 0 00-1.414-1.414L10 8.586l-1.42-1.42A3.5 3.5 0 005.5 2zM4 5.5a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 9a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" clip-rule="evenodd" />
+            <path d="M12.828 11.414a1 1 0 00-1.414 1.414l3.879 3.88a1 1 0 001.414-1.415l-3.879-3.879z" />
+          </svg>
+          <h2 class="text-xl text-center uppercase font-semibold">Nożyczki</h2>
+        </a>
+        <a href="#" class="mr-10 flex flex-col items-center hover:text-purple-800">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 lg:h-24 lg:w-24" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10 3.5a1.5 1.5 0 013 0V4a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-.5a1.5 1.5 0 000 3h.5a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-.5a1.5 1.5 0 00-3 0v.5a1 1 0 01-1 1H6a1 1 0 01-1-1v-3a1 1 0 00-1-1h-.5a1.5 1.5 0 010-3H4a1 1 0 001-1V6a1 1 0 011-1h3a1 1 0 001-1v-.5z" />
+          </svg>
+          <h2 class="text-xl text-center uppercase font-semibold">Puzzle</h2>
+        </a>
+        <a href="#" class="mr-10 flex flex-col items-center hover:text-purple-800">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 lg:h-24 lg:w-24" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+          </svg>
+          <h2 class="text-xl text-center uppercase font-semibold">Serce</h2>
+        </a>
+      </div>
+    </section>
+
+    <!-- DLA RODZICÓW -->
+    <section class="flex flex-col items-center bg-cover bg-gray-100 text-gray-600 mb-12">
+      <h2 class="text-2xl text-center uppercase mb-2 px-40 pt-28 pb-16 bg-auto bg-center bg-no-repeat w-full" style="background-image: url(../assets/header_in_text.svg);">Dla rodziców</h2>
+      <div class="max-w-screen-lg mt-8 mb-4 grid grid-cols-3 relative">
+          <div class="relative">
+            <div class="h-36 grid py-8 px-8 items-center">
+              <a href="https://youtu.be/dQw4w9WgXcQ" class="uppercase text-lg text-center hover:text-purple-800">Wpływ żywienia na zdrowie</a>
+            </div>
+          </div>
+          <div class="relative ">
+            <div class="h-36 grid py-8 px-8 items-center">
+              <a href="https://youtu.be/dQw4w9WgXcQ" class="uppercase text-lg text-center hover:text-purple-800">Najistotniejsze składniki w diecie dziecka</a>
+            </div>
+            <img src="../assets/separator.svg" alt="" class="h-12 absolute top-0 -left-6">
+            <img src="../assets/separator.svg" alt="" class="h-12 absolute top-0 -right-6">
+          </div>
+          <div class="relative ">
+            <div class="h-36 grid py-8 px-8 items-center">
+              <a href="https://youtu.be/dQw4w9WgXcQ" class="uppercase text-lg text-center hover:text-purple-800">Jak postępować z jadem</a>
+            </div>
+          </div>
+          <div class="relative ">
+            <div class="h-36 grid py-8 px-8 items-center">
+              <a href="https://youtu.be/dQw4w9WgXcQ" class="uppercase text-lg text-center hover:text-purple-800">zasady zdrowego żywienia dzieci</a>
+            </div>
+            <img src="../assets/separator.svg" alt="" class="h-12 absolute -top-6 left-0">
+            <img src="../assets/separator.svg" alt="" class="h-12 absolute -bottom-6 left-0">
+          </div>
+          <div class="relative ">
+            <div class="h-36 grid py-8 px-8 items-center">
+              <a href="https://youtu.be/dQw4w9WgXcQ" class="uppercase text-lg text-center hover:text-purple-800">Najczęstsze problemy w żywieniu dzieci</a>
+            </div>
+            <img src="../assets/separator.svg" alt="" class="h-12 absolute -top-6 -left-6">
+            <img src="../assets/separator.svg" alt="" class="h-12 absolute -top-6 -right-6">
+            <img src="../assets/separator.svg" alt="" class="h-12 absolute -bottom-6 -left-6">
+            <img src="../assets/separator.svg" alt="" class="h-12 absolute -bottom-6 -right-6">
+          </div>
+          <div class="relative ">
+            <div class="h-36 grid py-8 px-8 items-center">
+              <a href="https://youtu.be/dQw4w9WgXcQ" class="uppercase text-lg text-center hover:text-purple-800">Jak postępować z dzieckiem otyłym</a>
+            </div>
+            <img src="../assets/separator.svg" alt="" class="h-12 absolute -top-6 right-0">
+            <img src="../assets/separator.svg" alt="" class="h-12 absolute -bottom-6 right-0">
+          </div>
+          <div class="relative ">
+            <div class="h-36 grid py-8 px-8 items-center">
+              <a href="https://youtu.be/dQw4w9WgXcQ" class="uppercase text-lg text-center hover:text-purple-800">charakterystyka posiłków</a>
+            </div>
+          </div>
+          <div class="relative ">
+            <div class="h-36 grid py-8 px-8 items-center">
+              <a href="https://youtu.be/dQw4w9WgXcQ" class="uppercase text-lg text-center hover:text-purple-800">Jak zachęcić dziecko do jedzenia nowych produktów</a>
+            </div>
+            <img src="../assets/separator.svg" alt="" class="h-12 absolute bottom-0 -left-6">
+            <img src="../assets/separator.svg" alt="" class="h-12 absolute bottom-0 -right-6">
+          </div>
+          <div class="relative ">
+            <div class="h-36 grid py-8 px-8 items-center">
+              <a href="https://youtu.be/dQw4w9WgXcQ" class="uppercase text-lg text-center hover:text-purple-800">aktywność fizyczna dzieci</a>
+            </div>
+          </div>
+          <img src="../assets/separator.svg" alt="" class="h-12 absolute top-0 left-0">
+          <img src="../assets/separator.svg" alt="" class="h-12 absolute top-0 right-0">
+          <img src="../assets/separator.svg" alt="" class="h-12 absolute bottom-0 left-0">
+          <img src="../assets/separator.svg" alt="" class="h-12 absolute bottom-0 right-0">
+      </div>
+    </section>
+
+    <!-- ORGANIZATORZY -->
+    <section class="flex flex-col items-center text-center text-gray-600 pb-12" >
+      <img src="../assets/split.svg" alt="Separator" style="transform: scaleY(-1);">
+      <h2 class="text-2xl text-center uppercase mb-2 px-40 pt-28 pb-16 bg-auto bg-center bg-no-repeat w-full" style="background-image: url(../assets/header_in_text.svg);">Organizatorzy</h2>
+      <div class="mt-8 mb-16 justify-center flex flex-row">
+        <div class="flex flex-col justify-center mr-16">
+          <h2 class="text-xl font-semibold mb-4">Organizatorzy</h2>
+          <div class="flex flex-row justify-center">
+            <a href="https://youtu.be/dQw4w9WgXcQ" class="mr-2">
+              <img src="https://img.cppng.com/download/2020-06/37313-5-raspberry-transparent-background.png" alt="Logo" style="width: auto; height: 100px;">
+            </a>
+            <a href="https://youtu.be/dQw4w9WgXcQ">
+              <img src="https://elinux.org/images/c/cb/Raspberry_Pi_Logo.svg" alt="Logo" style="width: auto; height: 100px;">
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-col justify-center mr-16">
+          <h2 class="text-xl font-semibold mb-4">Patroni</h2>
+          <div class="flex flex-row justify-center">
+            <a href="https://youtu.be/dQw4w9WgXcQ" class="mr-2">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/640px-Tux.svg.png" alt="Logo" style="width: auto; height: 100px;">
+            </a>
+            <a href="https://youtu.be/dQw4w9WgXcQ" class="mr-2">
+              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Biedronka_logo.svg/1200px-Biedronka_logo.svg.png" alt="Logo" style="width: auto; height: 100px;">
+            </a>
+            <a href="https://youtu.be/dQw4w9WgXcQ">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/McDonald%27s_logo.svg/800px-McDonald%27s_logo.svg.png" alt="Logo" style="width: auto; height: 100px;">
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-col justify-center">
+          <h2 class="text-xl font-semibold mb-4">Sponsorzy</h2>
+          <div class="flex flex-row justify-center">
+            <a href="https://youtu.be/dQw4w9WgXcQ" class="mr-2">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/800px-Mercedes-Logo.svg.png" alt="Logo" style="width: auto; height: 100px;">
+            </a>
+            <a href="https://youtu.be/dQw4w9WgXcQ" class="mr-2">
+              <img src="https://atrium-plejada.pl/assets/webp-express/webp-images/doc-root/assets/uploads/2022/02/311595513063948004.png.webp" alt="Logo" style="width: auto; height: 100px;">
+            </a>
+          </div>
+        </div>
+      </div>
+      <img src="../assets/split.svg" alt="Separator">
+    </section>
+
+    <!-- STOPKA -->
+    <footer class="flex flex-col items-center text-center " >
+      <div class="h-64 bg-gray-100 w-full flex items-center justify-center">
+        <div class="bg-auto bg-center bg-no-repeat w-full flex items-center justify-center" style="background-image: url(../assets/footer.svg);">
+          <a href="https://youtu.be/dQw4w9WgXcQ">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Biedronka_logo.svg/1200px-Biedronka_logo.svg.png" alt="Logo" style="width: auto; height: 50px;">
+          </a>
+          <a href="https://youtu.be/dQw4w9WgXcQ">
+            <img src="https://img.cppng.com/download/2020-06/37313-5-raspberry-transparent-background.png" alt="Logo" style="width: auto; height: 180px;">
+          </a>
+          <a href="https://youtu.be/dQw4w9WgXcQ" class="mr-2">
+            <img src="https://elinux.org/images/c/cb/Raspberry_Pi_Logo.svg" alt="Logo" style="width: auto; height: 50px;">
+          </a>
+          <a href="https://youtu.be/dQw4w9WgXcQ">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/McDonald%27s_logo.svg/800px-McDonald%27s_logo.svg.png" alt="Logo" style="width: auto; height: 50px;">
+          </a>
+        </div>
+      </div>
+      <div class="h-8 w-full bg-purple-800"></div>
+    </footer>
+</div>
+</body>
+</html>
