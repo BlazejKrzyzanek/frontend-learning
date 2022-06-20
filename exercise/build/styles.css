@@ -18017,6 +18017,14 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-navbar {
+  background-image: url('/assets/header_background.svg');
+}
+
+.bg-section-header {
+  background-image: url(../assets/header_in_text.svg);
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -49884,6 +49892,14 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .sm\:bg-navbar {
+    background-image: url('/assets/header_background.svg');
+  }
+
+  .sm\:bg-section-header {
+    background-image: url(../assets/header_in_text.svg);
+  }
+
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -81397,6 +81413,14 @@ video {
 
   .md\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-navbar {
+    background-image: url('/assets/header_background.svg');
+  }
+
+  .md\:bg-section-header {
+    background-image: url(../assets/header_in_text.svg);
   }
 
   .md\:from-transparent {
@@ -112914,6 +112938,14 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .lg\:bg-navbar {
+    background-image: url('/assets/header_background.svg');
+  }
+
+  .lg\:bg-section-header {
+    background-image: url(../assets/header_in_text.svg);
+  }
+
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -144429,6 +144461,14 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .xl\:bg-navbar {
+    background-image: url('/assets/header_background.svg');
+  }
+
+  .xl\:bg-section-header {
+    background-image: url(../assets/header_in_text.svg);
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -175942,6 +175982,14 @@ video {
 
   .\32xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-navbar {
+    background-image: url('/assets/header_background.svg');
+  }
+
+  .\32xl\:bg-section-header {
+    background-image: url(../assets/header_in_text.svg);
   }
 
   .\32xl\:from-transparent {
