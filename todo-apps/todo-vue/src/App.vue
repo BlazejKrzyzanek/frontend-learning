@@ -14,7 +14,7 @@
     import ToDos from './components/ToDos'
     import AddToDoButton from './components/AddToDoButton'
     import FilterTodos from './components/FilterTodos.vue'
-import ItemsLeft from './components/ItemsLeft.vue'
+    import ItemsLeft from './components/ItemsLeft.vue'
 
     const API_URL = "http://localhost:4000/api";
 
@@ -107,6 +107,9 @@ import ItemsLeft from './components/ItemsLeft.vue'
 <style lang="scss">
 $black-shadow: #555;
 
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
 
 .content {
     width: 100%;
